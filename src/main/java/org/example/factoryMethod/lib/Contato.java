@@ -3,7 +3,6 @@ package org.example.factoryMethod.lib;
 import java.util.Objects;
 
 public class Contato {
-
     private String nome;
     private String email;
 

@@ -24,7 +24,7 @@ public class ContatosCSV implements Contatos {
         CSVReader csvReader = null;
 
         try {
-            URI uri = this.getClass().getResource("/" + nomeArquivo).toURI();
+            URI uri = this.getClass().getResource("/src/" + nomeArquivo).toURI();
             File arquivoCsv = new File(uri);
             FileReader fileReader = new FileReader(arquivoCsv);
             csvReader = new CSVReader(fileReader);
