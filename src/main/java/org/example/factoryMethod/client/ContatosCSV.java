@@ -2,6 +2,7 @@ package org.example.factoryMethod.client;
 
 import au.com.bytecode.opencsv.CSVReader;
 import org.example.factoryMethod.lib.Contato;
+import org.example.factoryMethod.lib.MalaDireta;
 import org.example.factoryMethod.lib.interfaces.Contatos;
 
 import java.io.File;
@@ -10,10 +11,12 @@ import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.IntStream;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class ContatosCSV implements Contatos {
 
+    private static final Logger logger = Logger.getLogger(ContatosCSV.class.getName());
     private String nomeArquivo;
     public ContatosCSV(String nomeArquivo) {
         this.nomeArquivo = nomeArquivo;
@@ -36,7 +39,11 @@ public class ContatosCSV implements Contatos {
                 contatos.add(new Contato(nextLine[0].trim(), nextLine[1].trim()));
             }
         } catch (Exception e) {
+
+            //Log pegando a exception
+            logger.log(Level.WARNING,"Erro lendo arquivo csv", e);
             throw new RuntimeException("Erro lendo arquivo csv", e);
+
         } finally {
             try {
                 csvReader.close();
