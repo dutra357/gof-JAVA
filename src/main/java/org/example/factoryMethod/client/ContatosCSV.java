@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.IntStream;
 
 public class ContatosCSV implements Contatos {
 
@@ -25,6 +26,7 @@ public class ContatosCSV implements Contatos {
 
         try {
             URI uri = this.getClass().getResource("/src/" + nomeArquivo).toURI();
+
             File arquivoCsv = new File(uri);
             FileReader fileReader = new FileReader(arquivoCsv);
             csvReader = new CSVReader(fileReader);

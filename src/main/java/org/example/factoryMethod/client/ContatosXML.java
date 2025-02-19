@@ -9,13 +9,13 @@ import java.util.List;
 
 public class ContatosXML implements Contatos {
 
-    private String nomeArquivo;
+    private final String nomeArquivo;
     public ContatosXML(String nomeArquivo) {
         this.nomeArquivo = nomeArquivo;
     }
 
     @Override
-    @SuppressWarnings("unchecked")
+
     public List<Contato> todos() {
         XStream xstream = new XStream();
         xstream.alias("contatos", List.class);

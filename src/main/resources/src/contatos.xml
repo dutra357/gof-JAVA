@@ -3,9 +3,12 @@
         <nome>Joao Silva</nome>
         <email>joao@gmail.com</email>
     </contato>
-
     <contato>
         <nome>Maria Rita</nome>
         <email>maria@gmail.com</email>
+    </contato>
+    <contato>
+        <nome>Julia LAura</nome>
+        <email>julia@gmail.com</email>
     </contato>
 </contatos>
