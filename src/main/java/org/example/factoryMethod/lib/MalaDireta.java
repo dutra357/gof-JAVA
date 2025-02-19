@@ -2,13 +2,15 @@ package org.example.factoryMethod.lib;
 
 
 import org.example.factoryMethod.lib.interfaces.Contatos;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.List;
-import java.util.logging.Logger;
+
 
 public abstract class MalaDireta {
 
-    private static final Logger logger = Logger.getLogger(MalaDireta.class.getName());
+    private static final Logger logger = LoggerFactory.getLogger(MalaDireta.class);
 
     protected abstract Contatos criarContatos();
 
@@ -24,12 +26,17 @@ public abstract class MalaDireta {
             System.out.println("From: <dutra@teste.com>");
             System.out.printf("To: [%s] <%s>\n", contato.getNome(), contato.getEmail());
 
-            //Log simples, concatenando strings
-            logger.info(String.format("Estou aqui com LOGGER INFO! - %s", contato.getEmail()));
-
             System.out.println(mensagem);
             System.out.println();
         }
+
+        //Log simples, concatenando strings
+        //Para Logger java: -Djava.util.logging.config.file=logging.properties
+        logger.trace("Estou aqui com LogBack TRACE!");
+        logger.info("Estou aqui com LogBack INFO!");
+        logger.debug("Estou aqui com LogBack DEBUG!");
+        logger.warn("Estou aqui com LogBack WARN!");
+        logger.error("Estou aqui com LogBack ERROR!");
 
         return true;
     }
