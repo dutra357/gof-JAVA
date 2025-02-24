@@ -5,7 +5,7 @@ import org.example.factoryMethod.lib.interfaces.Contatos;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.List;
+import java.util.*;
 
 
 public abstract class MalaDireta {
@@ -38,9 +38,23 @@ public abstract class MalaDireta {
         logger.warn("Estou aqui com LogBack WARN!");
         logger.error("Estou aqui com LogBack ERROR!");
 
+        Long numero1 = 128L;
+        Long numero2 = 128L;
+        System.out.println(numero1 == numero2);
+
+        List<String> teste = new ArrayList<>();
+        metodo(teste.toArray(new String[0]));
+        System.out.println(Runtime.getRuntime().totalMemory());
+
         return true;
+
     }
 
+    private void metodo(String... varargs) {
+        System.out.println(varargs);
 
+        Map<String, Long> myWeak = new WeakHashMap<>();
+        WeakHashMap<Integer, String> weakHashMap = new WeakHashMap<>();
+    }
 
 }
