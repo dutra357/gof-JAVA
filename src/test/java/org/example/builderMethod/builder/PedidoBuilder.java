@@ -9,7 +9,6 @@ import java.math.BigDecimal;
 public class PedidoBuilder {
 
     private PedidoVenda pedidoVenda;
-
     public PedidoBuilder() {
         this.pedidoVenda = new PedidoVenda();
     }
@@ -24,13 +23,6 @@ public class PedidoBuilder {
         return this;
     }
 
-    private void montarCliente(String name, boolean vip) {
-        Client client = new Client();
-        client.setName(name);
-        client.setVip(vip);
-        this.pedidoVenda.setClient(client);
-    }
-
     public PedidoBuilder comItem(String nome, Integer quantidade, BigDecimal valorUnitario) {
         ItemPedido itemPedido = new ItemPedido();
         itemPedido.setName(nome);
@@ -39,6 +31,13 @@ public class PedidoBuilder {
 
         this.pedidoVenda.getItensPedido().add(itemPedido);
         return this;
+    }
+
+    private void montarCliente(String name, boolean vip) {
+        Client client = new Client();
+        client.setName(name);
+        client.setVip(vip);
+        this.pedidoVenda.setClient(client);
     }
 
     public PedidoVenda builder() {
