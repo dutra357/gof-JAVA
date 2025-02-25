@@ -14,9 +14,7 @@ public class Principal {
         MalaDireta malaDiretaXML = new MalaDiretaXML("contatos.xml");
 
         String mensagem = JOptionPane.showInputDialog(null, "Digite a msg do e-mail: ");
-
         boolean status = malaDiretaCSV.enviarEmail(mensagem);
 
-        JOptionPane.showConfirmDialog(null, "E-mails enviados: " + status);
     }
 }

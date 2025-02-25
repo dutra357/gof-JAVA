@@ -48,3 +48,13 @@
 2025-02-24 16:27:33,748 DEBUG org.example.factoryMethod.lib.MalaDireta - Estou aqui com LogBack DEBUG!
 2025-02-24 16:27:33,748 WARN  org.example.factoryMethod.lib.MalaDireta - Estou aqui com LogBack WARN!
 2025-02-24 16:27:33,748 ERROR org.example.factoryMethod.lib.MalaDireta - Estou aqui com LogBack ERROR!
+2025-02-25 14:30:55,853 TRACE org.example.factoryMethod.lib.MalaDireta - Estou aqui com LogBack TRACE!
+2025-02-25 14:30:55,855 INFO  org.example.factoryMethod.lib.MalaDireta - Estou aqui com LogBack INFO!
+2025-02-25 14:30:55,855 DEBUG org.example.factoryMethod.lib.MalaDireta - Estou aqui com LogBack DEBUG!
+2025-02-25 14:30:55,855 WARN  org.example.factoryMethod.lib.MalaDireta - Estou aqui com LogBack WARN!
+2025-02-25 14:30:55,855 ERROR org.example.factoryMethod.lib.MalaDireta - Estou aqui com LogBack ERROR!
+2025-02-25 14:31:08,633 TRACE org.example.factoryMethod.lib.MalaDireta - Estou aqui com LogBack TRACE!
+2025-02-25 14:31:08,635 INFO  org.example.factoryMethod.lib.MalaDireta - Estou aqui com LogBack INFO!
+2025-02-25 14:31:08,635 DEBUG org.example.factoryMethod.lib.MalaDireta - Estou aqui com LogBack DEBUG!
+2025-02-25 14:31:08,635 WARN  org.example.factoryMethod.lib.MalaDireta - Estou aqui com LogBack WARN!
+2025-02-25 14:31:08,635 ERROR org.example.factoryMethod.lib.MalaDireta - Estou aqui com LogBack ERROR!

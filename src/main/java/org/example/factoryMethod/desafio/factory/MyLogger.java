@@ -1,20 +1,15 @@
 package org.example.factoryMethod.desafio.factory;
 
-import org.slf4j.Logger;
+import org.example.factoryMethod.desafio.factory.interfaces.PrintLogger;
 
 public abstract class MyLogger {
 
-    Logger logger;
+    protected abstract PrintLogger printLogger();
 
-    public MyLogger(Logger logger) {
-        this.logger = logger;
+    void log(Message message) {
+        
+        printLogger().print(message);
     }
 
-    public Logger getLogger() {
-        return logger;
-    }
 
-    public void setLogger(Logger logger) {
-        this.logger = logger;
-    }
 }

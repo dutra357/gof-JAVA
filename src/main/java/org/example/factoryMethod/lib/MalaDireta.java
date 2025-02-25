@@ -9,11 +9,10 @@ import java.util.*;
 
 
 public abstract class MalaDireta {
-
     private static final Logger logger = LoggerFactory.getLogger(MalaDireta.class);
 
-    protected abstract Contatos criarContatos();
 
+    protected abstract Contatos criarContatos();
     public boolean enviarEmail(String mensagem) {
 
         List<Contato> contatos = criarContatos().todos();
@@ -30,6 +29,15 @@ public abstract class MalaDireta {
             System.out.println();
         }
 
+        return true;
+    }
+
+    private void metodo(String... varargs) {
+        System.out.println(varargs);
+
+        Map<String, Long> myWeak = new WeakHashMap<>();
+        WeakHashMap<Integer, String> weakHashMap = new WeakHashMap<>();
+
         //Log simples, concatenando strings
         //Para Logger java: -Djava.util.logging.config.file=logging.properties
         logger.trace("Estou aqui com LogBack TRACE!");
@@ -41,20 +49,9 @@ public abstract class MalaDireta {
         Long numero1 = 128L;
         Long numero2 = 128L;
         System.out.println(numero1 == numero2);
-
         List<String> teste = new ArrayList<>();
-        metodo(teste.toArray(new String[0]));
+
         System.out.println(Runtime.getRuntime().totalMemory());
-
-        return true;
-
-    }
-
-    private void metodo(String... varargs) {
-        System.out.println(varargs);
-
-        Map<String, Long> myWeak = new WeakHashMap<>();
-        WeakHashMap<Integer, String> weakHashMap = new WeakHashMap<>();
     }
 
 }
