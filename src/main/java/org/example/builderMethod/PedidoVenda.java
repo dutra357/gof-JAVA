@@ -10,12 +10,13 @@ public class PedidoVenda {
     private Client client;
     private final List<ItemPedido> itensPedido = new ArrayList<>();
 
+    public PedidoVenda() {}
     public PedidoVenda(String numero, Client client) {
         this.numero = numero;
         this.client = client;
     }
 
-    public BigDecimal getValorTotal() {
+    public BigDecimal calcularValorTotal() {
         BigDecimal valorTotal = BigDecimal.ZERO;
         for (ItemPedido item : itensPedido) {
             valorTotal = valorTotal.add(item.getValorUnitario()).multiply(new BigDecimal(item.getQuantidade()));

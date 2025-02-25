@@ -4,9 +4,10 @@ import java.math.BigDecimal;
 
 public class ItemPedido {
     private String name;
-    private int quantidade;
+    private Integer quantidade;
     private BigDecimal valorUnitario;
 
+    public ItemPedido() {}
     public ItemPedido(String name, int quantidade, BigDecimal valorUnitario) {
         this.name = name;
         this.quantidade = quantidade;
@@ -21,11 +22,11 @@ public class ItemPedido {
         this.name = name;
     }
 
-    public int getQuantidade() {
+    public Integer getQuantidade() {
         return quantidade;
     }
 
-    public void setQuantidade(int quantidade) {
+    public void setQuantidade(Integer quantidade) {
         this.quantidade = quantidade;
     }
 

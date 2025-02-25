@@ -5,6 +5,7 @@ public class Client {
     private String name;
     private boolean vip;
 
+    public Client() {}
     public Client(String name, boolean vip) {
         this.name = name;
         this.vip = vip;
