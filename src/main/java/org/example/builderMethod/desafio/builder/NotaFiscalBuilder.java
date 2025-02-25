@@ -1,7 +1,9 @@
 package org.example.builderMethod.desafio.builder;
 
 import org.example.builderMethod.desafio.client.ItemProduto;
-import org.example.builderMethod.desafio.client.NotaFiscal;
+import org.example.builderMethod.desafio.client.impl.NotaPF;
+import org.example.builderMethod.desafio.client.impl.NotaPJ;
+import org.example.builderMethod.desafio.factory.NotaFiscal;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -11,8 +13,12 @@ public class NotaFiscalBuilder {
 
     private NotaFiscal notaFiscal;
 
-    public NotaFiscalBuilder() {
-        this.notaFiscal = new NotaFiscal();
+    public NotaFiscalBuilder(String tipo) {
+        if (tipo.equals("PJ")) {
+            this.notaFiscal = new NotaPJ();
+        } else if (tipo.equals("PF")) {
+            this.notaFiscal = new NotaPF();
+        }
     }
 
     public NotaFiscalBuilder comNumero(String numero) {
