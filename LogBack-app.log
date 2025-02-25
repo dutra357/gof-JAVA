@@ -58,3 +58,4 @@
 2025-02-25 14:31:08,635 DEBUG org.example.factoryMethod.lib.MalaDireta - Estou aqui com LogBack DEBUG!
 2025-02-25 14:31:08,635 WARN  org.example.factoryMethod.lib.MalaDireta - Estou aqui com LogBack WARN!
 2025-02-25 14:31:08,635 ERROR org.example.factoryMethod.lib.MalaDireta - Estou aqui com LogBack ERROR!
+2025-02-25 16:41:54,662 INFO  org.example.factoryMethod.desafio.client.LoggerConsole - Minha mensagem ou método a ser logado!, calculando: 10.0

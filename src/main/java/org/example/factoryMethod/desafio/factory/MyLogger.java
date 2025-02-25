@@ -6,8 +6,7 @@ public abstract class MyLogger {
 
     protected abstract PrintLogger printLogger();
 
-    void log(Message message) {
-        
+    public void log(String message) {
         printLogger().print(message);
     }
 
