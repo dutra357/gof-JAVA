@@ -1,4 +1,4 @@
-package org.example.builderMethod;
+package org.example.builderMethod.aula;
 
 public class Client {
 

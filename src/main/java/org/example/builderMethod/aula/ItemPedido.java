@@ -1,4 +1,4 @@
-package org.example.builderMethod;
+package org.example.builderMethod.aula;
 
 import java.math.BigDecimal;
 

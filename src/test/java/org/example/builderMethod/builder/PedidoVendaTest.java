@@ -1,8 +1,8 @@
 package org.example.builderMethod.builder;
 
-import org.example.builderMethod.Client;
-import org.example.builderMethod.ItemPedido;
-import org.example.builderMethod.PedidoVenda;
+import org.example.builderMethod.aula.Client;
+import org.example.builderMethod.aula.ItemPedido;
+import org.example.builderMethod.aula.PedidoVenda;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

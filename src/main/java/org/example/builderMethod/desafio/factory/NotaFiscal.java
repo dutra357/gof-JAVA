@@ -20,8 +20,7 @@ public abstract class NotaFiscal {
         this.data = data;
     }
 
-    public abstract Calculo calcularImposto();
-
+    protected abstract Calculo calcularImposto();
     public BigDecimal calcular() {
         return calcularImposto().calcular(this.itensProduto);
     }
