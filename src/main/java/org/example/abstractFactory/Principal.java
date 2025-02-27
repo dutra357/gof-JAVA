@@ -11,14 +11,19 @@ public class Principal {
 
     public static void main(String[] args) {
 
-        //Aula - AbstractFactory
+        /**
+         * Aula - AbstractFactory
+         *
+         * O padrão AbstractFactory fornece uma interface para criar famílias de objetos relacionados
+         * ou dependentes, sem especificar suas classes correlatas.
+         */
         ModuloPagamentoFactory moduloPayPal = new PayPalFactory();
         Pagamento pagamentoPayPal = new Pagamento(moduloPayPal);
 
         pagamentoPayPal.autorizar("7777", new BigDecimal("1000"));
 
         //Desafio
-        
+
 
     }
 }

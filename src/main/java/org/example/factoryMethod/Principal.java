@@ -10,6 +10,14 @@ public class Principal {
 
     public static void main(String[] args) {
 
+        /**
+         * Aula - FactoryMethod
+         *
+         * O padrão FactoryMethod define uma interface para criar um objeto,
+         * mas permite que as classes que a implementam decidam qual classe instanciar.
+         *
+         * FactoryMethod permite uma classe delegar a sua instanciação à subclasse.
+         */
         MalaDireta malaDiretaCSV = new MalaDiretaCSV("contatos.csv");
         MalaDireta malaDiretaXML = new MalaDiretaXML("contatos.xml");
 
