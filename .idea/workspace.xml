@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd04be8e-dd3f-4c7a-8e1f-c7e49399670f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop.ini" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/Cielo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/FControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/PagamentoSeguro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/interfaces/GestorDeRisco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/interfaces/Operadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -43,6 +44,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
+    "Application.Principal.executor": "Run",
+    "Application.org.example.abstractFactory.Principal.executor": "Run",
+    "Application.org.example.builderMethod.desafio.Principal.executor": "Run",
+    "JUnit.PedidoVendaTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -77,7 +83,7 @@
       <recent name="org.example.builderMethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.org.example.abstractFactory.Principal">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="gof-JAVA" />
@@ -104,6 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.abstractFactory.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.abstractFactory.Principal" />
+      <module name="gof-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.abstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.example.builderMethod.desafio.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.builderMethod.desafio.Principal" />
       <module name="gof-JAVA" />
@@ -117,7 +136,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PedidoVendaTest.deveCalcularValorTotalDoPedidoParaClienteVip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PedidoVendaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gof-JAVA" />
       <extension name="coverage">
         <pattern>
@@ -127,24 +146,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.builderMethod.builder" />
       <option name="MAIN_CLASS_NAME" value="org.example.builderMethod.builder.PedidoVendaTest" />
-      <option name="METHOD_NAME" value="deveCalcularValorTotalDoPedidoParaClienteVip" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PedidoVendaTest.deveCalcularValorTotalDoPedidoParaClienteVipComBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gof-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.builderMethod.builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.builderMethod.builder" />
-      <option name="MAIN_CLASS_NAME" value="org.example.builderMethod.builder.PedidoVendaTest" />
-      <option name="METHOD_NAME" value="deveCalcularValorTotalDoPedidoParaClienteVipComBuilder" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.abstractFactory.Principal" />
+        <item itemvalue="Application.org.example.builderMethod.desafio.Principal" />
+        <item itemvalue="JUnit.PedidoVendaTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.org.example.builderMethod.desafio.Principal" />
-        <item itemvalue="JUnit.PedidoVendaTest.deveCalcularValorTotalDoPedidoParaClienteVipComBuilder" />
-        <item itemvalue="JUnit.PedidoVendaTest.deveCalcularValorTotalDoPedidoParaClienteVip" />
       </list>
     </recent_temporary>
   </component>
