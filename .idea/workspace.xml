@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd04be8e-dd3f-4c7a-8e1f-c7e49399670f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop.ini" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2tDIA3P7XE3YNkS9Tg4yvnlrIxy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dadut/OneDrive/Área de Trabalho/AlgaWorks Cursos/Design Patterns Aplicados com Java/gof-JAVA",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "settings.qodana"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dadut\OneDrive\Área de Trabalho\AlgaWorks Cursos\Design Patterns Aplicados com Java\gof-JAVA\target" />
+      <recent name="C:\Users\dadut\OneDrive\Área de Trabalho\AlgaWorks Cursos\Design Patterns Aplicados com Java\gof-JAVA\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dadut\OneDrive\Área de Trabalho\AlgaWorks Cursos\Design Patterns Aplicados com Java\gof-JAVA\src\main\java\org\example\factoryMethod\desafio\diagram" />
+      <recent name="C:\Users\dadut\OneDrive\Área de Trabalho\AlgaWorks Cursos\Design Patterns Aplicados com Java\gof-JAVA" />
+      <recent name="C:\Users\dadut\OneDrive\Área de Trabalho\AlgaWorks Cursos\Design Patterns Aplicados com Java\gof-JAVA\src\main\resources" />
+      <recent name="C:\Users\dadut\OneDrive\Área de Trabalho\AlgaWorks Cursos\Design Patterns Aplicados com Java\gof-JAVA\src\main\java\org\example\factoryMethod" />
+      <recent name="C:\Users\dadut\OneDrive\Área de Trabalho\AlgaWorks Cursos\Design Patterns Aplicados com Java\gof-JAVA\src\main\java\org\example\factoryMethod\src" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.builderMethod" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="gof-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.factoryMethod.Principal" />
+      <module name="gof-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.factoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.builderMethod.desafio.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.builderMethod.desafio.Principal" />
+      <module name="gof-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.builderMethod.desafio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PedidoVendaTest.deveCalcularValorTotalDoPedidoParaClienteVip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gof-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.builderMethod.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.builderMethod.builder" />
+      <option name="MAIN_CLASS_NAME" value="org.example.builderMethod.builder.PedidoVendaTest" />
+      <option name="METHOD_NAME" value="deveCalcularValorTotalDoPedidoParaClienteVip" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PedidoVendaTest.deveCalcularValorTotalDoPedidoParaClienteVipComBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gof-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.builderMethod.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.builderMethod.builder" />
+      <option name="MAIN_CLASS_NAME" value="org.example.builderMethod.builder.PedidoVendaTest" />
+      <option name="METHOD_NAME" value="deveCalcularValorTotalDoPedidoParaClienteVipComBuilder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="main" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Principal" />
+        <item itemvalue="Application.org.example.builderMethod.desafio.Principal" />
+        <item itemvalue="JUnit.PedidoVendaTest.deveCalcularValorTotalDoPedidoParaClienteVipComBuilder" />
+        <item itemvalue="JUnit.PedidoVendaTest.deveCalcularValorTotalDoPedidoParaClienteVip" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd04be8e-dd3f-4c7a-8e1f-c7e49399670f" name="Changes" comment="" />
+      <created>1739880073172</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739880073172</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="itensPedido.get(0).name" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
