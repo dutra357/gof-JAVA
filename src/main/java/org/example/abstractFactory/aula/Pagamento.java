@@ -5,13 +5,14 @@ import org.example.abstractFactory.aula.interfaces.Operadora;
 
 import java.math.BigDecimal;
 
-public class PagamentoSeguro {
+public class Pagamento {
 
     private Operadora operadora;
     private GestorDeRisco gestorDeRisco;
 
-    public PagamentoSeguro(Operadora operadora) {
+    public Pagamento(Operadora operadora, GestorDeRisco gestorDeRisco) {
         this.operadora = operadora;
+        this.gestorDeRisco = gestorDeRisco;
     }
 
     public Long autorizar(String cartao, BigDecimal valor) {

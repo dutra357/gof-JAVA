@@ -1,4 +1,4 @@
-package org.example.abstractFactory.aula;
+package org.example.abstractFactory.aula.cielo;
 
 import org.example.abstractFactory.aula.interfaces.GestorDeRisco;
 
@@ -8,7 +8,7 @@ public class FControl implements GestorDeRisco {
     @Override
     public void avaliarRisco(String cartao, BigDecimal valor) {
         if (cartao.startsWith("7777")) {
-            throw new IllegalArgumentException("Cartão suspeito");
+            throw new IllegalArgumentException("Cartão suspeito.");
         }
     }
 }
