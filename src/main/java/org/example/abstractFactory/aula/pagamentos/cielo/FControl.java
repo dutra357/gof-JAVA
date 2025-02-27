@@ -1,6 +1,6 @@
-package org.example.abstractFactory.aula.cielo;
+package org.example.abstractFactory.aula.pagamentos.cielo;
 
-import org.example.abstractFactory.aula.interfaces.GestorDeRisco;
+import org.example.abstractFactory.aula.pagamentos.interfaces.GestorDeRisco;
 
 import java.math.BigDecimal;
 

@@ -1,4 +1,4 @@
-package org.example.abstractFactory.aula.interfaces;
+package org.example.abstractFactory.aula.pagamentos.interfaces;
 
 import java.math.BigDecimal;
 

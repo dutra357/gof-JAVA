@@ -1,6 +1,6 @@
-package org.example.abstractFactory.aula.redecard;
+package org.example.abstractFactory.aula.pagamentos.paypal;
 
-import org.example.abstractFactory.aula.interfaces.GestorDeRisco;
+import org.example.abstractFactory.aula.pagamentos.interfaces.GestorDeRisco;
 
 import java.math.BigDecimal;
 

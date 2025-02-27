@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd04be8e-dd3f-4c7a-8e1f-c7e49399670f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/paypal/ClearSale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/paypal/Paypal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/redecard/ClearSale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/redecard/RedeCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/diagram/diagrama_abstractF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/factory/PagSeguroFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/factory/PayPalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/factory/interfaces/ModuloPagamentoFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/Cielo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/cielo/Cielo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/FControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/cielo/FControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/PagamentoSeguro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/Pagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/Pagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/Pagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/cielo/Cielo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/pagamentos/cielo/Cielo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/cielo/FControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/pagamentos/cielo/FControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/interfaces/GestorDeRisco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/pagamentos/interfaces/GestorDeRisco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/interfaces/Operadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/pagamentos/interfaces/Operadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/paypal/ClearSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/pagamentos/paypal/ClearSale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/paypal/Paypal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/pagamentos/paypal/RedeCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/redecard/ClearSale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/abstractFactory/aula/redecard/RedeCard.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,17 +80,20 @@
       <recent name="C:\Users\dadut\OneDrive\Área de Trabalho\AlgaWorks Cursos\Design Patterns Aplicados com Java\gof-JAVA\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dadut\OneDrive\Área de Trabalho\AlgaWorks Cursos\Design Patterns Aplicados com Java\gof-JAVA\src\main\java\org\example\abstractFactory\aula\diagram" />
       <recent name="C:\Users\dadut\OneDrive\Área de Trabalho\AlgaWorks Cursos\Design Patterns Aplicados com Java\gof-JAVA\src\main\java\org\example\factoryMethod\desafio\diagram" />
       <recent name="C:\Users\dadut\OneDrive\Área de Trabalho\AlgaWorks Cursos\Design Patterns Aplicados com Java\gof-JAVA" />
       <recent name="C:\Users\dadut\OneDrive\Área de Trabalho\AlgaWorks Cursos\Design Patterns Aplicados com Java\gof-JAVA\src\main\resources" />
       <recent name="C:\Users\dadut\OneDrive\Área de Trabalho\AlgaWorks Cursos\Design Patterns Aplicados com Java\gof-JAVA\src\main\java\org\example\factoryMethod" />
-      <recent name="C:\Users\dadut\OneDrive\Área de Trabalho\AlgaWorks Cursos\Design Patterns Aplicados com Java\gof-JAVA\src\main\java\org\example\factoryMethod\src" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example.builderMethod" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.abstractFactory.aula.factory" />
     </key>
   </component>
   <component name="RunManager" selected="Application.org.example.abstractFactory.Principal">

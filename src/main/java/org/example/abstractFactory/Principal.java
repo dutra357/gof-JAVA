@@ -1,13 +1,24 @@
 package org.example.abstractFactory;
 
+import org.example.abstractFactory.aula.Pagamento;
+import org.example.abstractFactory.aula.factory.PagSeguroFactory;
+import org.example.abstractFactory.aula.factory.PayPalFactory;
+import org.example.abstractFactory.aula.factory.interfaces.ModuloPagamentoFactory;
+
+import java.math.BigDecimal;
+
 public class Principal {
 
     public static void main(String[] args) {
 
-        String nome = "Paulo";
+        //Aula - AbstractFactory
+        ModuloPagamentoFactory moduloPayPal = new PayPalFactory();
+        Pagamento pagamentoPayPal = new Pagamento(moduloPayPal);
 
-        if (nome.startsWith("Pa")) {
-            System.out.println(nome);
-        }
+        pagamentoPayPal.autorizar("7777", new BigDecimal("1000"));
+
+        //Desafio
+        
+
     }
 }

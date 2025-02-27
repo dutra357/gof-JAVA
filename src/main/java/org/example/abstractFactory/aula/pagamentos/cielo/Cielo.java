@@ -1,10 +1,10 @@
-package org.example.abstractFactory.aula.paypal;
+package org.example.abstractFactory.aula.pagamentos.cielo;
 
-import org.example.abstractFactory.aula.interfaces.Operadora;
+import org.example.abstractFactory.aula.pagamentos.interfaces.Operadora;
 
 import java.math.BigDecimal;
 
-public class Paypal implements Operadora {
+public class Cielo implements Operadora {
 
     private Long codigoConfirmacao = -1L;
 
