@@ -22,8 +22,5 @@ public class Principal {
 
         pagamentoPayPal.autorizar("7777", new BigDecimal("1000"));
 
-        //Desafio
-
-
     }
 }
