@@ -1,12 +1,15 @@
-package org.example.Observer.services;
+package org.example.Observer.listeners;
 
 import org.example.Observer.entidades.Lancamento;
+import org.example.Observer.listeners.interfaces.Listener;
 
 import java.util.List;
 
-public class EnviadorEmail {
+public class EmailListener implements Listener {
 
-    public void enviar(List<Lancamento> lancamentosVencidos) {
+
+    @Override
+    public void atualizar(List<Lancamento> lancamentosVencidos) {
         for (Lancamento lancamento : lancamentosVencidos) {
             System.out.println("Enviando e-mail para: " + lancamento.getPessoa().getNome());
         }
