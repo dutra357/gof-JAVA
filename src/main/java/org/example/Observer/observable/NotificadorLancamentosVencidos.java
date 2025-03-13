@@ -37,5 +37,6 @@ public class NotificadorLancamentosVencidos implements Notificador {
     @Override
     public void novosLancamentosVencidos(List<Lancamento> lancamentosVencidos) {
         this.lancamentosVencidos = lancamentosVencidos;
+        this.notificarListeners();
     }
 }

@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd04be8e-dd3f-4c7a-8e1f-c7e49399670f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Observer/entidades/LancamentosVencidosJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Observer/listeners/SmsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Observer/listeners/interfaces/Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Observer/observable/NotificadorLancamentosVencidos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Observer/observable/interfaces/Notificador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Observer/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Observer/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Observer/services/EnviadorEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Observer/listeners/EmailListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Observer/entidades/LancamentosVencidosJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Observer/entidades/LancamentosVencidosJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Observer/listeners/EmailListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Observer/listeners/EmailListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Observer/listeners/SmsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Observer/listeners/SmsListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +96,7 @@
       <recent name="org.example.abstractFactory.aula.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.proxy.exercicioProxy.Principal">
+  <component name="RunManager" selected="Application.org.example.Observer.Principal">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.factoryMethod.Principal" />
       <module name="gof-JAVA" />
@@ -114,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.abstractFactory.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.abstractFactory.Principal" />
+    <configuration name="org.example.Observer.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Observer.Principal" />
       <module name="gof-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.abstractFactory.*" />
+          <option name="PATTERN" value="org.example.Observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.builderMethod.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.builderMethod.Principal" />
+    <configuration name="org.example.abstractFactory.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.abstractFactory.Principal" />
       <module name="gof-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.builderMethod.*" />
+          <option name="PATTERN" value="org.example.abstractFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.Observer.Principal" />
         <item itemvalue="Application.org.example.proxy.exercicioProxy.Principal" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.org.example.proxy.Principal" />
         <item itemvalue="Application.org.example.abstractFactory.Principal" />
-        <item itemvalue="Application.org.example.builderMethod.Principal" />
       </list>
     </recent_temporary>
   </component>
