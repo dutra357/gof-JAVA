@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd04be8e-dd3f-4c7a-8e1f-c7e49399670f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/desafio/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/desafio/serviceMail/mailSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factoryMethod/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/factoryMethod/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factoryMethod/client/ContatosCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/factoryMethod/client/ContatosCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factoryMethod/client/ContatosXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/factoryMethod/client/ContatosXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proxy/proxyControl/ContatosXMLProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/proxyControl/ContatosXMLProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proxy/resource/ContatosXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/resource/ContatosXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proxy/resource/interfaces/Contatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/resource/interfaces/Contatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proxy/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
