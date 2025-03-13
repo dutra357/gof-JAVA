@@ -7,6 +7,7 @@ public class Contato {
     private String nome;
     private String email;
 
+    public Contato() {}
     public Contato(String nome, String email) {
         this.nome = nome;
         this.email = email;
@@ -32,11 +33,19 @@ public class Contato {
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
         Contato contato = (Contato) o;
-        return Objects.equals(nome, contato.nome) && Objects.equals(email, contato.email);
+        return Objects.equals(email, contato.email);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(nome, email);
+        return Objects.hashCode(email);
+    }
+
+    @Override
+    public String toString() {
+        return "Contato{" +
+                "nome='" + nome + '\'' +
+                ", email='" + email + '\'' +
+                '}';
     }
 }

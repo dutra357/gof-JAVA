@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd04be8e-dd3f-4c7a-8e1f-c7e49399670f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/diagram/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/resource/Contato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/resource/ContatosXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/resource/interfaces/Contatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/src/contatos2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/proxyControl/ContatosXMLProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/factoryMethod/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/factoryMethod/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proxy/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/src/contatos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/src/contatos1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proxy/resource/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/resource/Contato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proxy/resource/ContatosXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/resource/ContatosXML.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,7 @@
     "Application.Principal.executor": "Run",
     "Application.org.example.abstractFactory.Principal.executor": "Run",
     "Application.org.example.builderMethod.desafio.Principal.executor": "Run",
+    "Application.org.example.proxy.Principal.executor": "Run",
     "JUnit.PedidoVendaTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -94,26 +91,13 @@
       <recent name="org.example.abstractFactory.aula.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.abstractFactory.Principal">
+  <component name="RunManager" selected="Application.org.example.proxy.Principal">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="gof-JAVA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.factoryMethod.Principal" />
-      <module name="gof-JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.factoryMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,6 +124,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.builderMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.proxy.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.proxy.Principal" />
+      <module name="gof-JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.proxy.Principal" />
         <item itemvalue="Application.org.example.abstractFactory.Principal" />
         <item itemvalue="Application.org.example.builderMethod.Principal" />
         <item itemvalue="JUnit.PedidoVendaTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>
   </component>

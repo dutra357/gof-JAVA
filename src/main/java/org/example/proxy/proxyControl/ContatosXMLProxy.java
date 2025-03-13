@@ -1,21 +1,17 @@
-package org.example.proxy.resource;
+package org.example.proxy.proxyControl;
 
 import com.thoughtworks.xstream.XStream;
+import org.example.proxy.resource.Contato;
 import org.example.proxy.resource.interfaces.Contatos;
 
-import java.lang.reflect.Field;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
-public class ContatosXML implements Contatos {
+public class ContatosXMLProxy implements Contatos {
 
-    private Map<String, String> contatosEmCache = new HashMap<>();
 
-    public ContatosXML(String... nomesArquivos) {
-        XStream xStream = new XStream();
-        xStream.alias("contatos", List.class);
-        xStream.alias("contato", Contato.class);
+    private List<String> nomesArquivos;
+    public ContatosXMLProxy(String... nomesArquivos) {
+        this.nomesArquivos = new ArrayList<>(Arrays.asList(nomesArquivos));
 
         for (String nomeArquivo : nomesArquivos) {
             System.out.println("Carregando arquivo: " + nomeArquivo);
@@ -30,6 +26,6 @@ public class ContatosXML implements Contatos {
 
     @Override
     public String buscarPor(String email) {
-        return contatosEmCache.get(email);
+        return "";
     }
 }
