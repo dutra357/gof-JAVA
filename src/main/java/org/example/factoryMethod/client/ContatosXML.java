@@ -18,6 +18,8 @@ public class ContatosXML implements Contatos {
 
     public List<Contato> todos() {
         XStream xstream = new XStream();
+        xstream.allowTypes(new Class[] { Contato.class });
+
         xstream.alias("contatos", List.class);
         xstream.alias("contato", Contato.class);
 

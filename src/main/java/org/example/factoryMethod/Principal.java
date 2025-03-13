@@ -22,7 +22,7 @@ public class Principal {
         MalaDireta malaDiretaXML = new MalaDiretaXML("contatos1.xml");
 
         String mensagem = JOptionPane.showInputDialog(null, "Digite a msg do e-mail: ");
-        boolean status = malaDiretaCSV.enviarEmail(mensagem);
+        boolean status = malaDiretaXML.enviarEmail(mensagem);
 
     }
 }

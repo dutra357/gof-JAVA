@@ -34,7 +34,7 @@ public class ContatosCSV implements Contatos {
             File arquivoCsv = new File(uri);
             FileReader fileReader = new FileReader(arquivoCsv);
             csvReader = new CSVReader(fileReader);
-            String [] nextLine;
+            String[] nextLine;
 
             while ((nextLine = csvReader.readNext()) != null) {
                 contatos.add(new Contato(nextLine[0].trim(), nextLine[1].trim()));
