@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd04be8e-dd3f-4c7a-8e1f-c7e49399670f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Observer/entidades/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Observer/entidades/TipoLancamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Observer/entidades/Lancamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Observer/repositorios/Lancamentos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Observer/services/EnviadorEmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Observer/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Observer/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
