@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd04be8e-dd3f-4c7a-8e1f-c7e49399670f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/desafio/accesProxy/ServiceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/desafio/serviceMail/ServiceMailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/exercicioProxy/proxyJDK/JavaProxyJDK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/exercicioProxy/proxyJDK/SenderInvocationHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proxy/desafio/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/desafio/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proxy/desafio/serviceMail/mailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/desafio/serviceMail/MailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proxy/desafio/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/exercicioProxy/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proxy/desafio/accesProxy/ServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/exercicioProxy/accesProxy/ServiceProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proxy/desafio/serviceMail/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/exercicioProxy/serviceMail/MailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proxy/desafio/serviceMail/ServiceMailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proxy/exercicioProxy/serviceMail/ServiceMailSender.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,7 @@
     "Application.org.example.builderMethod.desafio.Principal.executor": "Run",
     "Application.org.example.proxy.Principal.executor": "Run",
     "Application.org.example.proxy.desafio.Principal.executor": "Run",
+    "Application.org.example.proxy.exercicioProxy.Principal.executor": "Run",
     "JUnit.PedidoVendaTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -93,7 +96,7 @@
       <recent name="org.example.abstractFactory.aula.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.proxy.desafio.Principal">
+  <component name="RunManager" selected="Application.org.example.proxy.exercicioProxy.Principal">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.factoryMethod.Principal" />
       <module name="gof-JAVA" />
@@ -146,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.proxy.desafio.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.proxy.desafio.Principal" />
+    <configuration name="org.example.proxy.exercicioProxy.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.proxy.exercicioProxy.Principal" />
       <module name="gof-JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.proxy.desafio.*" />
+          <option name="PATTERN" value="org.example.proxy.exercicioProxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,7 +175,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.proxy.desafio.Principal" />
+        <item itemvalue="Application.org.example.proxy.exercicioProxy.Principal" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.org.example.proxy.Principal" />
         <item itemvalue="Application.org.example.abstractFactory.Principal" />

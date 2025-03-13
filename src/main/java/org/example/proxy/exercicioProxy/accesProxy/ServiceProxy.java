@@ -1,7 +1,7 @@
-package org.example.proxy.desafio.accesProxy;
+package org.example.proxy.exercicioProxy.accesProxy;
 
-import org.example.proxy.desafio.serviceMail.MailSender;
-import org.example.proxy.desafio.serviceMail.ServiceMailSender;
+import org.example.proxy.exercicioProxy.serviceMail.MailSender;
+import org.example.proxy.exercicioProxy.serviceMail.ServiceMailSender;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package org.example.proxy.desafio.serviceMail;
+package org.example.proxy.exercicioProxy.serviceMail;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,6 +17,9 @@ public class ServiceMailSender implements MailSender{
         this.emails = new ArrayList<>(Arrays.asList(emails));
     }
 
+    public void addEmails(List emails) {
+        this.emails.addAll(emails);
+    }
 
     @Override
     public void sendMail(String mensagem) {

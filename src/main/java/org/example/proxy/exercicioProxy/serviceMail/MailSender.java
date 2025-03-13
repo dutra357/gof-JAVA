@@ -1,4 +1,4 @@
-package org.example.proxy.desafio.serviceMail;
+package org.example.proxy.exercicioProxy.serviceMail;
 
 public interface MailSender {
 
