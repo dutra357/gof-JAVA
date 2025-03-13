@@ -19,7 +19,7 @@ public class Principal {
          * FactoryMethod permite uma classe delegar a sua instanciação à subclasse.
          */
         MalaDireta malaDiretaCSV = new MalaDiretaCSV("contatos.csv");
-        MalaDireta malaDiretaXML = new MalaDiretaXML("contatos.xml");
+        MalaDireta malaDiretaXML = new MalaDiretaXML("contatos1.xml");
 
         String mensagem = JOptionPane.showInputDialog(null, "Digite a msg do e-mail: ");
         boolean status = malaDiretaCSV.enviarEmail(mensagem);

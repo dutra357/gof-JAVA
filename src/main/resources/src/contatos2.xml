@@ -1,0 +1,22 @@
+<contatos>
+    <contato>
+        <nome>Maria da Silva</nome>
+        <email>maria@gmail.com</email>
+    </contato>
+    <contato>
+        <nome>Rita de Cássia</nome>
+        <email>rita@gmail.com</email>
+    </contato>
+    <contato>
+        <nome>Francisco Souza</nome>
+        <email>francisco@gmail.com</email>
+    </contato>
+    <contato>
+        <nome>José Alves</nome>
+        <email>jose@gmail.com</email>
+    </contato>
+    <contato>
+        <nome>Carlos Maia</nome>
+        <email>carlos@gmail.com</email>
+    </contato>
+</contatos>
